@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/RyanTalbot/crypto-cli/issues"
   },
-  "homepage": "https://github.com/RyanTalbot/crypto-cli#readme"
+  "homepage": "https://github.com/RyanTalbot/crypto-cli#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^7.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3"
+  }
 }
