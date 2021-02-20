@@ -1,3 +1,8 @@
 #!/usr/bin/env node
 
-console.log('yo');
+const program = require('commander');
+const pkg = require('../package.json');
+
+program.version(pkg.version)
+       .command('key', 'Manage API')
+       .parse(process.argv);
